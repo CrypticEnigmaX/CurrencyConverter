@@ -62,7 +62,7 @@ class _CurrencyConvertMaterialPageState
         title: Text('Currency Converter'),
         foregroundColor: Colors.white,
         centerTitle: true,
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Colors.deepPurple,
       ),
       body: GestureDetector(
         onTap: () => FocusScope.of(context).unfocus(),
