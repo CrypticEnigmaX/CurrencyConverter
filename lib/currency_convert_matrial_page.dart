@@ -62,7 +62,7 @@ class _CurrencyConvertMaterialPageState
         title: Text('Currency Converter'),
         foregroundColor: Colors.white,
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.deepPurpleAccent,
       ),
       body: GestureDetector(
         onTap: () => FocusScope.of(context).unfocus(),
@@ -110,7 +110,7 @@ class _CurrencyConvertMaterialPageState
                   ),
                   child: Center(
                     child: const Text(
-                      'Convert Me',
+                      'Convert',
                       style: TextStyle(fontSize: 30),
                     ),
                   ),
